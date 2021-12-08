@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+}
+
+.header{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.nav-container{
+}
+.top-left-logo {
+	padding-left: 40px;
+}
+.nav-container ul{
+	float: right;
+	margin-right: 15px;
+}
+.nav-container ul li{
+	display: inline-block;
+	line-height: 35px;
+	margin-top: 0;
+	margin-right: 30px;
+	margin-bottom: 0;
+	font-family: bebas-neue;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.Profile {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+.profile-container {
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profile-image-column-1{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.profile-image-column-2 {
+	width: 50%;
+	float: left;
+}
+.profile-image-column-2-content h1{
+	text-align: right;
+	margin-right: 120px;
+	font-family: playfair-display;
+	font-weight: 600;
+	letter-spacing: 4px;
+	font-size: 60px;
+	word-spacing: 7px;
+}
+.profile-image-column-2-content h1 span{
+	background: #ACA499;
+}
+.profile-image-column-2-content h2{
+	margin-top: 220px;
+	margin-left: 50px;
+	font-family: playfair-display;
+	font-weight: 600;
+	font-size: 37px;
+	letter-spacing: 3px;
+	word-spacing: 7px;
+}
+.profile-image-column-2-content p{
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 50%;
+	font-family: Inter;
+	line-height: 26px;
+	font-weight: 300;
+}
+.profile-image-border img{
+	border: 16px solid #ACA499;
+	margin-right: 40px;
+	border-radius: 16px;
+}
+
+
+
+.footer{
+	background-color: #786758;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	padding-left: 0px;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.footer p{
+	color: #FFFFFF;
+	font-family: bebas-neue;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 3px;
+	padding-top: 15px;
+}
+.footer-social-link i {
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	color: #FFFFFF;
+	transition: ease;
+}
+.footer-social-link i:hover {
+	color:#CB9D14
+}
